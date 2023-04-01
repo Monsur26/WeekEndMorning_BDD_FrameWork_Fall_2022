@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-01T18:30:15.590Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6767175600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AmazonstepDefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Language Hover and select",
+        "description": "",
+        "id": "this-is-an-example-of-automated-test-cases-with-amazon;language-hover-and-select",
+        "after": [
+          {
+            "result": {
+              "duration": 898611100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AmazonstepDefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 99278000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in amazon homepage",
+            "match": {
+              "location": "AmazonstepDefinition.StepDefinition.i_am_in_amazon_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 813799000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I hover over the EN menu for English language",
+            "match": {
+              "location": "AmazonstepDefinition.StepDefinition.i_hover_over_the_EN_menu_for_English_language()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 754541100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click ES radio button for change language to spanish",
+            "match": {
+              "location": "AmazonstepDefinition.StepDefinition.i_click_ES_radio_button_for_change_language_to_spanish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2821362400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I hover over to ES menu for Spanish Language",
+            "match": {
+              "location": "AmazonstepDefinition.StepDefinition.i_hover_over_to_ES_menu_for_Spanish_Language()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 335328800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click to EN radio button and language changes to English",
+            "match": {
+              "location": "AmazonstepDefinition.StepDefinition.i_click_to_EN_radio_button_and_language_changes_to_English()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is an example of automated test cases with Amazon",
+    "description": "",
+    "id": "this-is-an-example-of-automated-test-cases-with-amazon",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/Amazonfeature/amazonTest.feature",
+    "tags": []
+  }
+]
