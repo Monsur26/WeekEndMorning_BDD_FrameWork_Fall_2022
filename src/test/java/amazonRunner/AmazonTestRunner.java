@@ -12,7 +12,8 @@ import org.junit.runner.RunWith;
         strict =true ,
         monochrome =true ,
         dryRun = false,
-        tags = ""
+        tags = "(@1 or @2) and (not @3)"
+        //tags=""
 
 )
 

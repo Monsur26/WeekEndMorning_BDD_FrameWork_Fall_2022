@@ -56,6 +56,30 @@ public class StepDefinition extends WebAPI {
         getInitElements();
         homepage.ENRadioButtonClick();
     }
+    @When("I search for a product in the search bar")
+    public void i_search_for_a_product_in_the_search_bar() {
+    getInitElements();
+    homepage.enterProductNameonSearchBar("IPhone");
+    }
+
+    @When("I press enter  on the search bar")
+    public void i_press_enter_on_the_search_bar() {
+    getInitElements();
+    homepage.submitForSearchResult();
+    }
+
+    @Then("I see the search results")
+    public void i_see_the_search_results() {
+        getInitElements();
+        homepage.searchResultAssertion("1-16 of over 1,000 results for");
+    }
+
+    @When("I serach for {string} in the search bar")
+    public void i_serach_for_in_the_search_bar(String string) {
+        getInitElements();
+        homepage.enterProductNameonSearchBar(string);
+    }
+
 
 
 }
